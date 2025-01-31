@@ -25,3 +25,11 @@ dist-ssr
 
 # Allow specific image files
 !images/gem-icon.png
+.vercel
+
+# Ignore all images except specific ones
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
