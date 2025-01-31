@@ -1,3 +1,62 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Nippo';
+  src: url('/fonts/Nippo-Bold.woff2') format('woff2'),
+       url('/fonts/Nippo-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nippo';
+  src: url('/fonts/Nippo-Medium.woff2') format('woff2'),
+       url('/fonts/Nippo-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nippo';
+  src: url('/fonts/Nippo-Regular.woff2') format('woff2'),
+       url('/fonts/Nippo-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nippo';
+  src: url('/fonts/Nippo-Light.woff2') format('woff2'),
+       url('/fonts/Nippo-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nippo';
+  src: url('/fonts/Nippo-Extralight.woff2') format('woff2'),
+       url('/fonts/Nippo-Extralight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nippo', sans-serif;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  p {
+    font-family: 'Inter', sans-serif;
+  }
+}

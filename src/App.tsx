@@ -24,7 +24,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen w-full bg-gradient-to-br from-black via-blue-950 to-blue-900 relative overflow-x-hidden font-mono">
+    <div className="min-h-screen w-full bg-gradient-to-br from-black via-blue-950 to-blue-900 relative overflow-x-hidden">
       {/* Background circles for visual interest */}
       <div className="fixed top-[-20%] left-[-10%] w-[500px] h-[500px] bg-blue-500/20 rounded-full blur-[100px]" />
       <div className="fixed bottom-[-20%] right-[-10%] w-[500px] h-[500px] bg-blue-400/10 rounded-full blur-[100px]" />
@@ -36,7 +36,7 @@ function App() {
             <div className="flex items-center justify-between h-16">
               <div className="flex items-center">
                 <img src={BraveniteLogo} alt="Bravenite Logo" className="h-8 w-8 mr-2 filter drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] transition-all hover:drop-shadow-2xl" />
-                <span className="text-2xl font-bold text-white cursor-pointer" onClick={scrollToTop}>Bravenite</span>
+                <span className="text-2xl font-[400] text-white cursor-pointer font-['Nippo']" onClick={scrollToTop}>Bravenite</span>
               </div>
               <div className="flex items-center space-x-3">
                 <button
@@ -67,15 +67,15 @@ function App() {
           {/* Hero Section */}
           <section aria-labelledby="hero-heading">
             <div className="flex items-center justify-center mb-8">
-              <h1 id="hero-heading" className="text-2xl font-bold text-white">Bravenite</h1>
+              <h1 id="hero-heading" className="text-2xl font-[400] text-white font-['Nippo']">Bravenite</h1>
             </div>
 
             <div className="text-center mb-12">
-              <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight">
+              <h2 className="text-4xl sm:text-5xl font-[400] text-white mb-6 leading-tight font-['Nippo']">
                 Products People
                 <span className="text-blue-400"> Love</span>
               </h2>
-              <p className="text-lg text-blue-100 max-w-2xl mx-auto tracking-wide">
+              <p className="text-lg text-blue-100 max-w-2xl mx-auto tracking-wide font-light">
                 We see technology as a medium for creating products that improve lives.   
               </p>
             </div>
@@ -85,9 +85,9 @@ function App() {
           <section aria-labelledby="mission-heading" className="backdrop-blur-md bg-blue-950/20 p-8 rounded-2xl border border-blue-500/20">
             <div className="flex items-center space-x-3 mb-6">
               <Target className="w-6 h-6 text-blue-400" aria-hidden="true" />
-              <h2 id="mission-heading" className="text-2xl font-bold text-white">Our Mission</h2>
+              <h2 id="mission-heading" className="text-2xl font-[400] text-white font-['Nippo']">Our Mission</h2>
             </div>
-            <p className="text-blue-100 leading-relaxed tracking-wide text-sm">
+            <p className="text-blue-100 leading-relaxed tracking-wide text-sm font-light">
               At Bravenite, we're driven by a singular purpose: creating products that seamlessly integrate into people's lives and solve real problems. We believe in building technology that not only functions flawlessly but also brings joy and value to our users.
             </p>
           </section>
@@ -96,9 +96,9 @@ function App() {
           <section aria-labelledby="about-heading" className="backdrop-blur-md bg-blue-950/20 p-8 rounded-2xl border border-blue-500/20">
             <div className="flex items-center space-x-3 mb-6">
               <Users className="w-6 h-6 text-blue-400" aria-hidden="true" />
-              <h2 id="about-heading" className="text-2xl font-bold text-white">Who We Are</h2>
+              <h2 id="about-heading" className="text-2xl font-[400] text-white font-['Nippo']">Who We Are</h2>
             </div>
-            <p className="text-blue-100 leading-relaxed tracking-wide text-sm">
+            <p className="text-blue-100 leading-relaxed tracking-wide text-sm font-light">
               We are empathetic creators, artists, builders, and inventors. Our team brings together diverse perspectives and skills, united by our passion for crafting meaningful solutions. We aim to marry every product with technical excellence and human-centered design.
             </p>
           </section>
@@ -108,11 +108,11 @@ function App() {
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center space-x-2">
                 <Send className="w-5 h-5 text-blue-400" aria-hidden="true" />
-                <h2 id="contact-heading" className="text-white font-medium">Get in Touch</h2>
+                <h2 id="contact-heading" className="text-white font-[400] font-['Nippo']">Get in Touch</h2>
               </div>
               <a
                 href="mailto:hello@bravenite.com"
-                className="flex items-center space-x-2 text-blue-400 hover:text-blue-300 transition-colors text-sm"
+                className="flex items-center space-x-2 text-blue-400 hover:text-blue-300 transition-colors text-sm font-medium"
                 aria-label="Send us an email"
                 onClick={handleEmailClick}
               >
@@ -122,7 +122,7 @@ function App() {
             </div>
             <a
               href="mailto:hello@bravenite.com"
-              className="text-blue-200 hover:text-blue-400 transition-colors text-sm"
+              className="text-blue-200 hover:text-blue-400 transition-colors text-sm font-light"
               onClick={handleEmailClick}
             >
               hello@bravenite.com
@@ -131,7 +131,7 @@ function App() {
         </div>
         
         {/* Footer */}
-        <footer className="mt-8 text-blue-200/60 text-sm">
+        <footer className="mt-8 text-blue-200/60 text-sm font-light">
           Bravenite LLC
         </footer>
       </main>
