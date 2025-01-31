@@ -38,7 +38,8 @@ function App() {
                 <img 
                   src={BraveniteLogo} 
                   alt="Bravenite Logo" 
-                  className="w-auto h-6 sm:h-8 mr-2 transition-all" 
+                  className="w-auto h-6 sm:h-8 mr-2 transition-all will-change-transform" 
+                  style={{ imageRendering: 'crisp-edges' }}
                 />
                 <span className="text-2xl font-[400] text-white cursor-pointer font-['Nippo','Inter',system-ui,-apple-system,sans-serif]" onClick={scrollToTop}>Bravenite</span>
               </div>
