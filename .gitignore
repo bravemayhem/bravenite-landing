@@ -27,9 +27,12 @@ dist-ssr
 !images/gem-icon.png
 .vercel
 
-# Ignore all images except specific ones
+# Ignore all images except specific ones and assets
 *.png
 *.jpg
 *.jpeg
 *.gif
 *.svg
+
+# But allow SVGs in the assets directory
+!src/assets/*.svg
