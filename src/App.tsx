@@ -81,7 +81,7 @@ function App() {
                 <span className="text-blue-400"> Love</span>
               </h2>
               <p className="text-lg text-blue-100 max-w-2xl mx-auto tracking-wide font-light">
-                We see technology as a medium for creating products that improve lives.   
+                We see technology as a medium for improving lives.   
               </p>
             </div>
           </section>
