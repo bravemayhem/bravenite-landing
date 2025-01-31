@@ -137,7 +137,7 @@ function App() {
         
         {/* Footer */}
         <footer className="mt-8 text-blue-200/60 text-sm font-light">
-          Bravenite LLC
+          © {new Date().getFullYear()} Bravenite LLC. All rights reserved.
         </footer>
       </main>
     </div>
