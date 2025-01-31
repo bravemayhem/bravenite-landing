@@ -35,7 +35,11 @@ function App() {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-16">
               <div className="flex items-center">
-                <img src={BraveniteLogo} alt="Bravenite Logo" className="h-8 w-8 mr-2 filter drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] transition-all hover:drop-shadow-2xl" />
+                <img 
+                  src={BraveniteLogo} 
+                  alt="Bravenite Logo" 
+                  className="w-auto h-6 sm:h-8 mr-2 transition-all" 
+                />
                 <span className="text-2xl font-[400] text-white cursor-pointer font-['Nippo','Inter',system-ui,-apple-system,sans-serif]" onClick={scrollToTop}>Bravenite</span>
               </div>
               <div className="flex items-center space-x-3">
